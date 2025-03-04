@@ -1,0 +1,117 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    
+}
+.co{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+h1 {
+    font-size: 28px;
+    
+    padding-left: 30px;
+}
+
+
+.highlight {
+    color: red;
+}
+.highlight image{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: orange;
+    color: white;
+    cursor: pointer;
+}
+
+
+.h{
+    margin-top: 20px;
+    padding-bottom:20px;
+
+}
+
+
+.img1 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction:row;
+    padding-inline-start: 1000px;
+    padding-left: 20px;
+    
+    
+}
+
+.our-blaza {
+    margin: 40px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.read-blood {
+    background: #f9f9f9;
+    padding: 30px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+  
+}
+@media( max-width:600px){
+    .section{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .h{
+        flex-direction: column;
+    }
+    .card{
+        width: 80;
+        flex-direction: column;
+        
+
+    }
+    .card img{
+        flex-direction: column;
+
+    
+}
+    
+
